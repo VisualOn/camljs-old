@@ -1,0 +1,34 @@
+{
+  "name": "@visualon/camljs",
+  "version": "2.7.0-rc",
+  "description": "Simplifies creation of SharePoint CAML queries for client-side scripts. Can be used with either SharePoint Client Object Model or SPServices.",
+  "main": "bin/camljs.js",
+  "types":"bin/camljs.d.ts",
+  "scripts": {
+    "start": "tsc -w --pretty",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "prepublish": "tsc"
+  },
+  "files": [
+      "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisualOn/camljs.git"
+  },
+  "keywords": [
+    "caml",
+    "camljs",
+    "sharepoint"
+  ],
+  "author": "VisualOn GmbH",
+  "license": "MS-PL",
+  "bugs": {
+    "url": "https://github.com/VisualOn/camljs/issues"
+  },
+  "homepage": "https://github.com/VisualOn/camljs#readme",
+  "devDependencies": {
+    "typescript": "^2.1.4"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": true,
+        "inlineSources": true,
+        "outDir": "bin",
+        "rootDir": "CamlJs",
+        "forceConsistentCasingInFileNames": true,
+        "noResolve": false,
+        "pretty": true,
+        "noEmitOnError": true,
+        "strictNullChecks": false,
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": false,
+        "declaration": true,
+        "lib": [ "dom", "es5", "es6", "scripthost" ]
+    },
+    "files": [
+        "CamlJs/camljs.ts"
+    ]
+}
